@@ -10,11 +10,11 @@ In this notebook, we construct a neural network with the following architecture:
 
 ## Key Steps:
 
--Initialization: Define the network's architecture and initialize weights.
--Forward Propagation: Compute the predictions based on current weights.
--Loss Calculation: Calculate the MSE loss between predictions and actual values.
-=Backward Propagation: Compute gradients of the loss with respect to weights.
--Weight Update: Adjust weights using gradients to minimize the loss.
+- Initialization: Define the network's architecture and initialize weights.
+- Forward Propagation: Compute the predictions based on current weights.
+- Loss Calculation: Calculate the MSE loss between predictions and actual values.
+- Backward Propagation: Compute gradients of the loss with respect to weights.
+- Weight Update: Adjust weights using gradients to minimize the loss.
 
 ## Code Overview:
 
