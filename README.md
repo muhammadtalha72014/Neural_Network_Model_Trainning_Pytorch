@@ -5,7 +5,9 @@ This repository contains a Jupyter Notebook implementing a three-layer neural ne
 In this notebook, we construct a neural network with the following architecture:
 
 1 Input Layer: Accepts input features.
+
 2 Hidden Layer: Processes the inputs through a linear transformation followed by an activation function.
+
 3 Output Layer: Outputs the final predictions.
 
 ## Key Steps:
@@ -18,27 +20,27 @@ In this notebook, we construct a neural network with the following architecture:
 
 ## Code Overview:
 
--Initialization: We define the weights and activation functions.
--Forward Propagation: Perform matrix multiplication and apply activation functions.
--Loss Function: Use MSE to measure the error.
--Backward Propagation: Calculate gradients using PyTorch's autograd feature.
--Weight Update: Apply gradient descent to update weights iteratively.
+- Initialization: We define the weights and activation functions.
+- Forward Propagation: Perform matrix multiplication and apply activation functions.
+- Loss Function: Use MSE to measure the error.
+- Backward Propagation: Calculate gradients using PyTorch's autograd feature.
+- Weight Update: Apply gradient descent to update weights iteratively.
 
 ## Neural Networks
-Neural networks are computational models inspired by the human brain, consisting of interconnected units (neurons) that process information in layers. They are particularly powerful for tasks such as image recognition, natural language processing, and time series prediction.
+Neural networks are computational models inspired by the human brain, consisting of interconnected units (neurons) that process information in layers. They are mighty for image recognition, natural language processing, and time series prediction.
 
 ## Advantages:
--Flexibility: Capable of modeling complex relationships in data.
--Scalability: Suitable for large-scale data.
--Performance: Achieve state-of-the-art results in many applications.
+- Flexibility: Capable of modeling complex relationships in data.
+- Scalability: Suitable for large-scale data.
+- Performance: Achieve state-of-the-art results in many applications.
 
 ## Advantages of Using PyTorch
-PyTorch is a popular deep learning framework that offers several advantages:
+PyTorch is a popular deep-learning framework that offers several advantages:
 
--Dynamic Computation Graph: PyTorch builds computation graphs dynamically, making it easier to modify and debug.
--Ease of Use: Intuitive and Pythonic, making it accessible to beginners and researchers.
--Autograd: Automatic differentiation simplifies the implementation of backpropagation.
--Community and Ecosystem: Strong community support with a rich ecosystem of libraries and tools.
+- Dynamic Computation Graph: PyTorch builds computation graphs dynamically, making it easier to modify and debug.
+- Ease of Use: Intuitive and Pythonic, making it accessible to beginners and researchers.
+- Autograd: Automatic differentiation simplifies the implementation of backpropagation.
+- Community and Ecosystem: Strong community support with a rich ecosystem of libraries and tools.
 
 ## Conclusion
 This project demonstrates the fundamental concepts of building and training a neural network using PyTorch. By understanding the basics, you can extend this knowledge to more complex architectures and applications.
